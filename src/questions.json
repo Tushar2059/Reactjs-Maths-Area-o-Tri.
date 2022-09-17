@@ -1,0 +1,90 @@
+[
+    {
+        "question":"If two triangles are having same base 4 cm and their area is 12 cm² and lying between the same parallel lines, what will be the height?",
+        "questionHasImg" : false,
+        "questionImg" : "",
+        "optionA": "6 cm",
+        "optionB": "4 cm",
+        "optionC": "8 cm",
+        "optionD": "None of these",
+        "isOptionsHaveImages": [false, false, false, false],
+        "optionAImg": "",
+        "optionBImg": "",
+        "optionCImg": "",
+        "optionDImg": "",
+        "answer": "A. 6 cm",
+        "explanation" : "Two triangles on the same base and between the same parallel lines are equal in area.",
+        "explanationHasImg" : false,
+        "explanationImg" : "",
+        "noOfAttempts": 2,
+        "questionType": "selectOptions"
+    },
+
+    {
+        "question": "If a triangle and a parallelogram are on the same base and between the same parallels, then what will be area of triangle ?",
+        "questionHasImg" : false,
+        "questionImg" : "",
+        "optionA": "Area of triangle is equal to twice the area of parallelogram.",
+        "optionB": "Area of triangle is equal to the area of parallelogram.",
+        "optionC": "Area of triangle is equal to half the area of parallelogram.",
+        "optionD": "None of these",
+        "isOptionsHaveImages": [false, false, false, false],
+        "optionAImg": "",
+        "optionBImg": "",
+        "optionCImg": "",
+        "optionDImg": "",
+        "answer": "C. Area of triangle is equal to half the area of parallelogram.",
+        "explanation" : "If a triangle and a parallelogram are on the same base and between the same parallels,then area of parallelogram is twice the area of triangle.",
+        "explanationHasImg" : false,
+        "explanationImg" : "",
+        "noOfAttempts": 2,
+        "questionType": "selectOptions"
+    },
+
+    {
+        "question": "Triangles ABC and DBC are on the same base BC and with vertices A and D on opposite sides of BC such that ar (∆ABC) = ar (∆DBC). What is the relation between their altitudes",
+        "questionHasImg" : false,
+        "questionImg" : "",
+        "optionA": "Equal",
+        "optionB": "Not equal",
+        "optionC": "",
+        "optionD": "",
+        "isOptionsHaveImages": [false, false, false, false],
+        "optionAImg": "",
+        "optionBImg": "",
+        "optionCImg": "",
+        "optionDImg": "",
+        "answer": "A. Equal",
+        "explanation" : "Two triangles on the same base and between the same parallel lines are equal in area.",
+        "explanationHasImg" : false,
+        "explanationImg" : "",
+        "noOfAttempts": 1,
+        "questionType": "selectOptions"
+    },
+
+    {
+        "question": "D and E are points on sides AB and AC respectively of ∆ABC, such that ar(∆DBC) = ar(∆EBC). Are lines DE and BC parallel to each other?",
+        "questionHasImg" : false,
+        "questionImg" : "",
+        "optionA": "No",
+        "optionB": "Yes",
+        "optionC": "",
+        "optionD": "",
+        "isOptionsHaveImages": [false, false, false, false],
+        "optionAImg": "",
+        "optionBImg": "",
+        "optionCImg": "",
+        "optionDImg": "",
+        "answer": "B. Yes",
+        "explanation" : "If two triangles having same area and mounted on the same base then their heights are equal.",
+        "explanationHasImg" : false,
+        "explanationImg" : "",
+        "noOfAttempts": 1,
+        "questionType": "selectOptions"
+    }
+
+    
+ 
+ 
+    
+]

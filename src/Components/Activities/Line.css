@@ -1,0 +1,13 @@
+
+#clock {
+    width: 250px;
+    height: 250px;
+ }
+
+
+@media screen and (max-width: 768px) {
+    #clock {
+        width:500px;
+        height:200px;
+    }
+  }
