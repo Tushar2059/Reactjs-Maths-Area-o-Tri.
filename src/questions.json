@@ -17,7 +17,8 @@
         "explanationHasImg" : false,
         "explanationImg" : "",
         "noOfAttempts": 2,
-        "questionType": "selectOptions"
+        "questionType": "selectOptions",
+        "maxMarks" : 1
     },
 
     {
@@ -38,7 +39,8 @@
         "explanationHasImg" : false,
         "explanationImg" : "",
         "noOfAttempts": 2,
-        "questionType": "selectOptions"
+        "questionType": "selectOptions",
+        "maxMarks" : 1
     },
 
     {
@@ -59,7 +61,8 @@
         "explanationHasImg" : false,
         "explanationImg" : "",
         "noOfAttempts": 1,
-        "questionType": "selectOptions"
+        "questionType": "selectOptions",
+        "maxMarks" : 1
     },
 
     {
@@ -80,11 +83,8 @@
         "explanationHasImg" : false,
         "explanationImg" : "",
         "noOfAttempts": 1,
-        "questionType": "selectOptions"
+        "questionType": "selectOptions",
+        "maxMarks" : 1
     }
-
-    
- 
- 
-    
+   
 ]

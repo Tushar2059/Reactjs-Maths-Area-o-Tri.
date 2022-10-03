@@ -55,10 +55,10 @@ const Offcanvas = () => {
           <Typography>
           Ensure you read this guide from start to finish.
             <ul className="broswer-default" id="main-list">
-              <li>
+              {/* <li>
                 The Quiz has a duration of 10 minutes and ends as soon as your
                 time is elapses.
-              </li>
+              </li> */}
               <li>
                 After clicking on Button "Agree" quiz will start
                 alongwith time.
@@ -68,7 +68,7 @@ const Offcanvas = () => {
                 <img src={question} alt="Quiz Question"></img>
               </li> */}
               <li>
-                Select the option which best answers the question by cliking (or
+                Select the option which best answers the question by clicking (or
                 selecting) it.
               </li>
               <li>

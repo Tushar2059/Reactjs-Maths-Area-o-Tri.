@@ -48,17 +48,17 @@ const Activity1 = () => {
             To verify that the triangles on the same base and between the same parallels are equal in area.
           </div></div>
         </div>
-        <div className="" style={{ height: "30vh" }}>
+        <div className="" style={{ height: "33vh" }}>
           <div
             className="d-flex justify-content-center align-items-center fs-2.0vw fw-bolder"
-            style={{ height: "15vh" ,fontSize:"2.0vw"}}
+            style={{ height: "20vh" ,fontSize:"2.0vw"}}
           >
             Learning Outcome:
           </div>
           <div className="col-12 d-flex justify-content-center">
           <div
             className="d-flex col-10 justify-content-center align-items-center fs-1.5vw fw-normal text-center"
-            style={{ height: "5vh" ,fontSize:"1.5vw",fontFamily:"Arial"}}
+            style={{ height: "1vh" ,fontSize:"1.5vw",fontFamily:"Arial"}}
           >
            Students will be able to verify that the triangles on the same base and between 
             the same parallels are equal in area.

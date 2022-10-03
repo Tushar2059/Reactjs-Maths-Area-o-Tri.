@@ -14,7 +14,7 @@ class QuestionStatusUpdate extends React.Component {
       <div className="questionAttemptStatus">
         {this.props.noOfQues.map((stat, index) => 
             <button  disabled={true}
-                style={(stat === 2) ? {backgroundColor:"#28a745"} : (stat === 1) ? {backgroundColor:"#dc3545"} : (stat === 0) ? {backgroundColor:"#ffc107"} : {backgroundColor: null}  } 
+                style={(stat === 2) ? {backgroundColor:"#28a745", color:"white"} : (stat === 1) ? {backgroundColor:"#dc3545", color:"white"} : (stat === 0) ? {backgroundColor:"#ffc107", color:"white"} : {backgroundColor: null}  } 
                 className="buttonQuestion" key={index.toString()}>
                 {index+1} 
             </button>

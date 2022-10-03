@@ -16,8 +16,9 @@ import "../../styles/components/_quiz-instructions.css";
 //import "../../../node_modules/materialize-css/dist/js/materialize.min.js"
 
 import "../../../node_modules/@mdi/font/css/materialdesignicons.min.css";
-
 import Headcomp from "../Activities/Headcomp";
+//import Headcomp from "../MajorComponents/Headcomp";
+
 
 const QuizInstructions = () => {
   const [showDialog, setShowDialog] = useState(false);
@@ -102,12 +103,12 @@ const QuizInstructions = () => {
                     alongwith time
                   </li>
                   <li>
-                    {/* <div>Every question has 4 options.</div> */}
+                    <div>Every question has 4 options.</div>
                     {/* <img src={question} alt="Quiz Question"></img> */}
                   </li>
                   <li>
                     Select the option which best answers the question by cliking
-                    (or selecting) it.
+                    (or selectig) it.
                   </li>
                   <li>
                     If the question is fill in the blanks type then it is
@@ -116,7 +117,7 @@ const QuizInstructions = () => {
                   </li>
                   <li>
                     {" "}
-                    You will have 2 chances to select correct option if the question has 4 options and  You will have 1 chance to select correct option if the question has 2 options.
+                    You will have 2 chances to select correct option.
                     <li>
                       If you dont know the answer you may skip the question and
                       review it again if time remains
