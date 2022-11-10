@@ -154,7 +154,7 @@ class ExamFinalScoreStats extends React.Component {
                 </tr>
                 <tr class="table-warning">
                     <th scope="row">3</th>
-                    <td>Partial Apptempts</td> <td>{noOfPartialAttempts}</td>
+                    <td>Partial Attempts</td> <td>{noOfPartialAttempts}</td>
                 </tr>                
                 <tr class="table-light">
                     <th scope="row">4</th>
@@ -169,7 +169,7 @@ class ExamFinalScoreStats extends React.Component {
                 <tr class="table-primary">
                     <th scope="row"></th>
                     <td>Time Taken</td>
-                    <td>{time.minutes} minutes :{time.seconds} seconds</td>
+                    <td>{time.minutes} minutes : {time.seconds} seconds</td>
                 </tr>
             </tbody>
             </table>
@@ -181,7 +181,7 @@ class ExamFinalScoreStats extends React.Component {
               onClick={() => {
                                 this.handleClose(); 
                         }}    >   
-              Continue
+              OK
             </Button>
           </Modal.Footer>
         </Modal>

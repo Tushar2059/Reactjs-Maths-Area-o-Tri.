@@ -5,6 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import Tooltip, { tooltipClasses } from "@mui/material/Tooltip";
 import { styled } from "@mui/material/styles";
 import { motion } from "framer-motion";
+import { ListItemText } from "@mui/material";
 
 import {
   Dialog,
@@ -49,24 +50,18 @@ const Offcanvas = () => {
 
   return (
     <>
-      <Dialog open={showDialog}>
+      <Dialog open={showDialog} >
         <DialogTitle>Instructions for quiz</DialogTitle>
-        <DialogContent dividers>
-          <Typography>
+        <DialogContent dividers style={{marginLeft:"5%"}}>
+          {/* <Typography>
           Ensure you read this guide from start to finish.
             <ul className="broswer-default" id="main-list">
-              {/* <li>
-                The Quiz has a duration of 10 minutes and ends as soon as your
-                time is elapses.
-              </li> */}
+             
               <li>
                 After clicking on Button "Agree" quiz will start
                 alongwith time.
               </li>
-              {/* <li>
-                <div>Every question has 4 options.</div>
-                <img src={question} alt="Quiz Question"></img>
-              </li> */}
+              
               <li>
                 Select the option which best answers the question by clicking (or
                 selecting) it.
@@ -86,11 +81,44 @@ const Offcanvas = () => {
                 <li>The score and timing is displayed on top of the screen.</li>
               </li>
             </ul>
-          </Typography>
+          </Typography> */}
+
+          <ListItemText sx={{ display: "list-item" }}>
+      Read all the instructions given below.
+      </ListItemText>
+     
+
+      <ListItemText sx={{ display: "list-item" }}>
+      The quiz will start after clicking on the "OK" button,
+along with a timer.
+      </ListItemText>
+      <ListItemText sx={{ display: "list-item" }}>
+      To select an option as an answer to the given question, click on it.
+      </ListItemText>
+     
+      <ListItemText sx={{ display: "list-item" }}>
+      You will get two attempts to select the correct option to the
+question.
+      </ListItemText>
+      <ListItemText sx={{ display: "list-item" }}>
+      You may skip the question if you want.
+      </ListItemText>
+      <ListItemText sx={{ display: "list-item" }}>
+      The score and timing are displayed at the top of the screen
+throughout the quiz.
+      </ListItemText>
+      <ListItemText sx={{ display: "list-item" }}>
+      You will get +1 for each correct answer. There is no
+negative marking.
+      </ListItemText>
+      <ListItemText sx={{ display: "list-item" }}>
+      The scorecard will be generated at the end of the quiz.
+      </ListItemText>
+
         </DialogContent>
         <DialogActions>
           <Button variant="contained" color="primary" onClick={onAgree}>
-            Agree
+            OK
           </Button>
           <Button variant="contained" color="secondary" onClick={closeDialog}>
             Cancel

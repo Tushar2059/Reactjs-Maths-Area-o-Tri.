@@ -22,6 +22,7 @@ import Theory12 from "./Components/Activities/ActFolder1/Theory12";
 import Theory13 from "./Components/Activities/ActFolder1/Theory13";
 import Play from "./Components/quiz/Play";
 import QuizInstructions from "./Components/quiz/QuizInstructions";
+import  "./Components/Activities/Line.css";
 
 function App() {
   

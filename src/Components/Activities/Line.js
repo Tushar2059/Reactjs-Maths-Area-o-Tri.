@@ -1031,7 +1031,7 @@ function Line(props) {
             {/* {!isDisabled && !isDisabledCanvas && (<h3 className="text-dark mt-5">Conclusion :</h3>)} */}
           </div>
 
-          <div className="mt-3 col-5" style={{fontSize:"1.2vw"}}>
+          <div id="cloc" className="mt-3 col-5 bg-inf d-flex justify-content-center align-items-center " style={{fontSize:"1.2vw"}}>
             <canvas id="clock" ref={canvas} style={{ border: "0px solid "  }}></canvas>
           </div>
 

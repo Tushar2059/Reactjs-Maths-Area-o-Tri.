@@ -4,12 +4,12 @@ import exp1 from "../Superscript";
 import { motion } from "framer-motion";
 
 import PropTypes from "prop-types";
-import Button from "@mui/material/Button";
+// import Button from "@mui/material/Button";
 import { styled } from "@mui/material/styles";
-import Dialog from "@mui/material/Dialog";
-import DialogTitle from "@mui/material/DialogTitle";
-import DialogContent from "@mui/material/DialogContent";
-import DialogActions from "@mui/material/DialogActions";
+// import Dialog from "@mui/material/Dialog";
+// import DialogTitle from "@mui/material/DialogTitle";
+// import DialogContent from "@mui/material/DialogContent";
+// import DialogActions from "@mui/material/DialogActions";
 import IconButton from "@mui/material/IconButton";
 //import CloseIcon from '@mui/icons-material/Close';
 import Typography from "@mui/material/Typography";
@@ -17,6 +17,14 @@ import Typography from "@mui/material/Typography";
 import Tooltip, { tooltipClasses } from "@mui/material/Tooltip";
 
 import letusverify from "../../Img/letusverify.png"
+
+import {
+  Dialog,
+  DialogTitle,
+  DialogContent,
+  DialogActions,
+  Button,
+} from "@material-ui/core";
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   "& .MuiDialogContent-root": {
@@ -128,6 +136,7 @@ const Startact = () => {
                           backgroundSize: "cover",
                           maxHeight: "100%",
                           maxWidth: "100%",
+                          cursor:"pointer"
                         }}
                         src={letusverify}
                         alt="Logo"
@@ -145,37 +154,37 @@ const Startact = () => {
             alt="Logo"
           /> */}
 
-          <BootstrapDialog
+          <Dialog
             onClose={handleClose}
             aria-labelledby="customized-dialog-title"
             open={open}
           >
-            <BootstrapDialogTitle
+            <DialogTitle
               id="customized-dialog-title"
               onClose={handleClose}
-              style={{fontFamily:"Arial"  ,fontSize:"1.2vw",fontWeight:"bold" }}
+              style={{fontFamily:"arial"  ,fontSize:"1.2vw",fontWeight:"bold" }}
             >
-              What we are going to learn ?
-            </BootstrapDialogTitle>
+              What are we going to learn?
+            </DialogTitle>
             <DialogContent dividers>
               <Typography gutterBottom>
-              <ul style={{fontFamily:"Arial"  ,fontSize:"1.0vw" }}><li >
+              <ul style={{fontFamily:"arial"  ,fontSize:"1.0vw" }}><li >
                 We are going to find the triangles on the same base and between same parallel lines are equal in area.
               </li></ul>
               
               </Typography>
               <Typography gutterBottom>
-              <ul style={{fontFamily:"Arial"  ,fontSize:"1.0vw" }}><li> We will draw two triangles on same base and same parallels.</li></ul>
+              <ul style={{fontFamily:"arial"  ,fontSize:"1.0vw" }}><li> We will draw two triangles on same base and same parallels.</li></ul>
              
               </Typography>
               <Typography gutterBottom>
-              <ul style={{fontFamily:"Arial"  ,fontSize:"1.0vw" }}>
+              <ul style={{fontFamily:"arial"  ,fontSize:"1.0vw" }}>
               <li> We will measure the length of base.</li><br></br>
               <li>We will measure and compare heights of both the triangles.</li></ul>
               
               </Typography>
               <Typography gutterBottom>
-              <ul style={{fontFamily:"Arial"  ,fontSize:"1.0vw" }}><li>Then according to the formula, we can prove that obtained length of height and base, the area of both the triangles are same.</li></ul>
+              <ul style={{fontFamily:"arial"  ,fontSize:"1.0vw" }}><li>Then according to the formula, we can prove that obtained length of height and base, the area of both the triangles are same.</li></ul>
               
               </Typography>
               {/* <Typography gutterBottom>
@@ -183,11 +192,16 @@ const Startact = () => {
               </Typography> */}
             </DialogContent>
             <DialogActions>
-              <Button autoFocus variant="contained" onClick={onForward} style={{fontFamily:"Arial"  ,fontSize:"1.0vw" }}>
-                I am ready!
+              <Button autoFocus variant="contained" color="primary" onClick={onForward} style={{fontFamily:"arial"  ,fontSize:"1.0vw" }} size="small">
+                ok
               </Button>
+              <Button autoFocus variant="contained" color="secondary" onClick={onForward} style={{fontFamily:"arial"  ,fontSize:"1.0vw" }} size="small">
+                cancel
+              </Button>
+
+              
             </DialogActions>
-          </BootstrapDialog>
+          </Dialog>
         </motion.div>
         {/* </Link> */}
         {/* <div className="fw-bold fs-2">Click me!</div> */}
