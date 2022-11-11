@@ -95,11 +95,7 @@ along with a timer.
       <ListItemText sx={{ display: "list-item" }}>
       To select an option as an answer to the given question, click on it.
       </ListItemText>
-     
-      <ListItemText sx={{ display: "list-item" }}>
-      You will get two attempts to select the correct option to the
-question.
-      </ListItemText>
+      <ListItemText sx={{ display: "list-item" }}>You will have 2 chances to select the correct option if the question has 4 options, and you will have 1 chance to select the correct option if the question has 2 options.</ListItemText>
       <ListItemText sx={{ display: "list-item" }}>
       You may skip the question if you want.
       </ListItemText>
